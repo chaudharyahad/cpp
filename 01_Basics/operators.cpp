@@ -51,5 +51,18 @@ int main()
     // Not Equal to Operator
     cout << "a != b = " << (a != b) << endl;
 
+    cout<<"==========================\n";
+    cout<<"Logical Operator\n";
+    cout<<"==========================\n";
+
+    // Logical AND  Operator
+    cout << "a && b = " << (a && b) << endl;
+
+    // Logical OR Operator
+    cout << "a || b = " << (a || b) << endl;
+
+    // Logical NOT Operator
+    cout << " !b = " << (!b) << endl;
+
     return 0;
 }

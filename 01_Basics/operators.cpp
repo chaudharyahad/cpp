@@ -29,5 +29,27 @@ int main()
     // Decrement
     cout << "b-- = " << b--;
 
+    cout<<"\n==========================\n";
+    cout<<"Relational Operator\n";
+    cout<<"==========================\n";
+
+    // Less than Operator
+    cout << "a < b = " << (a < b) << endl;
+
+    // Greator than Operator
+    cout << "a > b = " << (a > b) << endl;
+
+    // Less than Equal to Operator
+    cout << "a <= b = " << (a <= b) << endl;
+
+    // Greater than Equal to Operator
+    cout << "a >= b = " << (a >= b) << endl;
+
+    // Equal to Operator
+    cout << "a == b = " << (a == b) << endl;
+
+    // Not Equal to Operator
+    cout << "a != b = " << (a != b) << endl;
+
     return 0;
 }

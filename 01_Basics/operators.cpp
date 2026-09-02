@@ -86,5 +86,24 @@ int main()
     // Bitwise Right Shift Operator
     cout << "a >> b = " << (a >> b) << endl;
 
+    cout << "==========================\n";
+    cout << "Assignment Operator\n";
+    cout << "==========================\n";
+
+     // Assignment Operator.
+    cout << "a = " << a << endl;
+  
+    // Add and Assignment Operator.
+    cout << "a += b is " << (a += b) << endl;
+  
+    // Subtract and Assignment Operator.
+    cout << "a -= b is " << (a -= b) << endl;
+  
+    // Multiply and Assignment Operator.
+    cout << "a *= b is " << (a *= b) << endl;
+  
+    // Divide and Assignment Operator.
+    cout << "a /= b is " << (a /= b);
+
     return 0;
 }

@@ -109,7 +109,7 @@ int main()
     cout << "Ternary or Conditional Operators\n";
     cout << "==========================\n";
 
-    cout << "Smallest value is : " << ((a < b) ? a : b )<< endl;
+    cout << "Smallest value is : " << ((a < b) ? a : b) << endl;
 
     return 0;
 }

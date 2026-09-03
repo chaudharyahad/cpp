@@ -57,6 +57,7 @@ int main()
         cout << "a is not equal to 5 or 10" << endl;
     }
 
+    // Looping Statement in Programming
     cout << "==========================\n";
     cout << "For Loop\n";
     cout << "==========================\n";
@@ -87,6 +88,20 @@ int main()
         cout << a << " * " << j << " = " << a * j << endl;
         j++;
     } while (j <= 10);
+
+    cout << "==========================\n";
+    cout << "Nested Loop\n";
+    cout << "==========================\n";
+
+    for (int i = 0; i < 3; i++)
+    {
+        int j = 0;
+        while (j < 5)
+        {
+            cout << "i = " << i << " j = " << j << endl;
+            j++;
+        }
+    }
 
     return 0;
 }

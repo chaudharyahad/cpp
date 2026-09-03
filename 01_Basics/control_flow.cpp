@@ -77,5 +77,16 @@ int main()
         i++;
     }
 
+    cout << "==========================\n";
+    cout << "do-While Loop\n";
+    cout << "==========================\n";
+
+    int j = 1;
+    do
+    {
+        cout << a << " * " << j << " = " << a * j << endl;
+        j++;
+    } while (j <= 10);
+
     return 0;
 }

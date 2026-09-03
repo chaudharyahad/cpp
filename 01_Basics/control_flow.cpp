@@ -40,4 +40,22 @@ int main()
     cout << "==========================\n";
 
     cout << ((a == 10) ? "a is equal to 10" : "a is not equal to 10") << endl;
+
+    cout << "==========================\n";
+    cout << "Switch-Case Statement\n";
+    cout << "==========================\n";
+
+    switch (a)
+    {
+    case 5:
+        cout << "a is equal to 5" << endl;
+        break;
+    case 10:
+        cout << "a is equal to 10" << endl;
+        break;
+    default:
+        cout << "a is not equal to 5 or 10" << endl;
+    }
+
+    return 0;
 }

@@ -66,5 +66,16 @@ int main()
         cout << a << " * " << i << " = " << a * i << endl;
     }
 
+    cout << "==========================\n";
+    cout << "While Loop\n";
+    cout << "==========================\n";
+
+    int i = 1;
+    while (i <= 10)
+    {
+        cout << a << " * " << i << " = " << a * i << endl;
+        i++;
+    }
+
     return 0;
 }

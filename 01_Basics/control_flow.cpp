@@ -57,5 +57,14 @@ int main()
         cout << "a is not equal to 5 or 10" << endl;
     }
 
+    cout << "==========================\n";
+    cout << "For Loop\n";
+    cout << "==========================\n";
+
+    for (int i = 1; i <= 10; i++)
+    {
+        cout << a << " * " << i << " = " << a * i << endl;
+    }
+
     return 0;
 }

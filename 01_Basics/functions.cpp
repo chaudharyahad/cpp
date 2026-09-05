@@ -25,6 +25,16 @@ void passByReference(int &b)
     b = 50;
 }
 
+// Recursion function
+void countDown(int n)
+{
+    if (n == 0)
+        return;
+
+    cout << n << endl;
+    countDown(n - 1);
+}
+
 int main()
 {
     int num = 5;
@@ -57,6 +67,12 @@ int main()
     passByReference(b);
 
     cout << "b: " << b << endl;
+
+    cout << "======================" << endl;
+    cout << "Recursion" << endl;
+    cout << "======================" << endl;
+
+    countDown(5);
 
     return 0;
 }

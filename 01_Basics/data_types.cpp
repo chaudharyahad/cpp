@@ -8,12 +8,17 @@ int main()
     int number = 10;
     cout << "Integer: " << number << endl;
     cout << "Size: " << sizeof(number) << " bytes" << endl;
-    
+
     cout << "=======================" << endl;
     // Character variable
     char character = 'A';
     cout << "Character: " << character << endl;
     cout << "Size: " << sizeof(character) << " byte" << endl;
 
+    cout << "=======================" << endl;
+    // Boolean variable
+    bool isTrue = true;
+    cout << "Boolean: " << isTrue << endl;
+    cout << "Size: " << sizeof(isTrue) << " byte" << endl;
     return 0;
 }

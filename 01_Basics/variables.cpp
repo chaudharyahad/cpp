@@ -25,5 +25,11 @@ int main()
     cout << "num1: " << num1 << endl;
     cout << "num2: " << num2 << endl;
 
+    // Declare and initialize a constant
+    const int DAYS_IN_WEEK = 7;
+
+    // Access the constant
+    cout << "Days in a week: " << DAYS_IN_WEEK << endl;
+
     return 0;
 }

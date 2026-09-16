@@ -20,5 +20,11 @@ int main()
     bool isTrue = true;
     cout << "Boolean: " << isTrue << endl;
     cout << "Size: " << sizeof(isTrue) << " byte" << endl;
+
+    cout << "=======================" << endl;
+    // Floating-point variable
+    float decimalNumber = 12.231f;
+    cout << "Float: " << decimalNumber << endl;
+    cout << "Size: " << sizeof(decimalNumber) << " bytes" << endl;
     return 0;
 }

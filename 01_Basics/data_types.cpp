@@ -4,6 +4,10 @@ using namespace std;
 
 int main()
 {
+    cout << "=======================" << endl;
+    cout << "Basic Data Types" << endl;
+    cout << "=======================" << endl;
+
     // Integer variable
     int number = 10;
     cout << "Integer: " << number << endl;
@@ -26,5 +30,13 @@ int main()
     float decimalNumber = 12.231f;
     cout << "Float: " << decimalNumber << endl;
     cout << "Size: " << sizeof(decimalNumber) << " bytes" << endl;
+
+    cout << "=======================" << endl;
+    // Double variable
+    double largeDecimalNumber = 12.231;
+    cout << "Double: " << largeDecimalNumber << endl;
+    cout << "Size: " << sizeof(largeDecimalNumber) << " bytes" << endl;
+
+    cout << "=======================" << endl;
     return 0;
 }

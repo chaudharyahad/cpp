@@ -8,10 +8,15 @@ int multiply(int x, int y)
 {
     return x * y;
 }
+// Pass by value
+void passByValue(int a)
+{
+    a = 20;
+}
 
 int main()
 {
-    int result, num = 5;
+    int result, num = 5, a = 10;
     // Calling the function
     greet();
 
@@ -19,6 +24,14 @@ int main()
     result = multiply(num, 10);
 
     cout << "Multiplication result: " << result << endl;
+
+    cout << "======================" << endl;
+    cout << "Pass by Value" << endl;
+    cout << "======================" << endl;
+
+    passByValue(a);
+
+    cout << "a: " << a << endl;
 
     return 0;
 }

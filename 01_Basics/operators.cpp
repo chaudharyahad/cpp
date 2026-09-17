@@ -64,5 +64,26 @@ int main()
     // Logical NOT Operator
     cout << " !b = " << (!b) << endl;
 
+    cout << "==========================\n";
+    cout << "BitWise Operators\n";
+    cout << "==========================\n";
+
+    // Bitwise AND Operator
+    cout << "a & b = " << (a & b) << endl;
+
+    // Bitwise OR Operator
+    cout << "a | b = " << (a | b) << endl;
+
+    // Bitwise XOR Operator
+    cout << "a ^ b = " << (a ^ b) << endl;
+
+    // Bitwise NOT Operator
+    cout << "~b = " << (~b) << endl;
+
+    // Bitwise Left Shift Operator
+    cout << "a << b = " << (a << b) << endl;
+
+    // Bitwise Right Shift Operator
+    cout << "a >> b = " << (a >> b) << endl;
     return 0;
 }

@@ -104,5 +104,12 @@ int main()
 
     // Divide and Assignment Operator.
     cout << "a /= b is " << (a /= b) << endl;
+
+    cout << "==========================\n";
+    cout << "Ternary or Conditional Operator\n";
+    cout << "==========================\n";
+
+    cout << "Smallest value is : " << ((a < b) ? a : b) << endl;
+
     return 0;
 }

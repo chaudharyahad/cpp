@@ -31,8 +31,14 @@ int main()
     }
     else
     {
-        cout << "a is not equal to 20 or 10";
+        cout << "a is not equal to 20 or 10"<<endl;
     }
+
+    cout << "==========================\n";
+    cout << "Ternary or Conditional Operators\n";
+    cout << "==========================\n";
+
+    cout << ((a == 10) ? "a is equal to 10" : "a is not equal to 10") << endl;
 
     return 0;
 }

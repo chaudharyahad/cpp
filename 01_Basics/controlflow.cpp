@@ -86,6 +86,21 @@ int main()
         cout << b << " * " << j << " = " << b * j << endl;
         j++;
     } while (j <= 10);
+
+    cout << "==========================\n";
+    cout << "Nested Loop\n";
+    cout << "==========================\n";
+
+    for (int i = 0; i < 3; i++)
+    {
+        // Outer loop runs 3 times
+        for (int j = 0; j < 2; j++)
+        {
+            // Inner loop runs 2 times for each
+            // outer loop iteration
+            cout << "i = " << i << ", j = " << j << endl;
+        }
+    }
     
     return 0;
 }

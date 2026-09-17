@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a = 10;
+    int a = 10, b = 3;
 
     cout << "==========================\n";
     cout << "if-else Statement\n";
@@ -64,6 +64,17 @@ int main()
     for (int i = 1; i <= 10; i++)
     {
         cout << a << " * " << i << " = " << a * i << endl;
+    }
+
+    cout << "==========================\n";
+    cout << "While Loop\n";
+    cout << "==========================\n";
+
+    int i = 1;
+    while (i <= 10)
+    {
+        cout << b << " * " << i << " = " << b * i << endl;
+        i++;
     }
     return 0;
 }

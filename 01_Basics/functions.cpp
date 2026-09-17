@@ -13,10 +13,15 @@ void passByValue(int a)
 {
     a = 20;
 }
+// Pass by reference
+void passByReference(int &b)
+{
+    b = 50;
+}
 
 int main()
 {
-    int result, num = 5, a = 10;
+    int result, num = 5, a = 10, b = 20;
     // Calling the function
     greet();
 
@@ -32,6 +37,14 @@ int main()
     passByValue(a);
 
     cout << "a: " << a << endl;
+
+    cout << "======================" << endl;
+    cout << "Pass by Reference" << endl;
+    cout << "======================" << endl;
+
+    passByReference(b);
+
+    cout << "b: " << b << endl;
 
     return 0;
 }

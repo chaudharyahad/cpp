@@ -101,7 +101,7 @@ int main()
             cout << "i = " << i << ", j = " << j << endl;
         }
     }
-    
+
     // Jump Statements in Programming
     cout << "==========================\n";
     cout << "Continue Statement\n";
@@ -114,6 +114,20 @@ int main()
             continue;
         }
         cout << k << " " << endl;
+    }
+
+    cout << "==========================\n";
+    cout << "goto Statement\n";
+    cout << "==========================\n";
+
+    int l = 0;
+
+loopStart:
+    if (l < 5)
+    {
+        cout << l << endl;
+        l++;
+        goto loopStart;
     }
 
     return 0;

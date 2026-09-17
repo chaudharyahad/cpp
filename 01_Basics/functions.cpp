@@ -18,10 +18,14 @@ void passByReference(int &b)
 {
     b = 50;
 }
+void passByPointer(int *c)
+{
+    *c = 70;
+}
 
 int main()
 {
-    int result, num = 5, a = 10, b = 20;
+    int result, num = 5, a = 10, b = 20, c = 30;
     // Calling the function
     greet();
 
@@ -45,6 +49,13 @@ int main()
     passByReference(b);
 
     cout << "b: " << b << endl;
+
+    cout << "======================" << endl;
+    cout << "Pass by Pointer" << endl;
+    cout << "======================" << endl;
+
+    passByPointer(&c);
+    cout << "c: " << c << endl;
 
     return 0;
 }

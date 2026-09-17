@@ -102,5 +102,19 @@ int main()
         }
     }
     
+    // Jump Statements in Programming
+    cout << "==========================\n";
+    cout << "Continue Statement\n";
+    cout << "==========================\n";
+
+    for (int k = 0; k < 10; k++)
+    {
+        if (k % 2 == 1)
+        {
+            continue;
+        }
+        cout << k << " " << endl;
+    }
+
     return 0;
 }

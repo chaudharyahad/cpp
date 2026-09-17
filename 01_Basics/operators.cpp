@@ -5,7 +5,7 @@ int main()
     int a = 10, b = 3;
 
     cout << "==========================\n";
-    cout << "Airthmetic Operator\n";
+    cout << "Airthmetic Operators\n";
     cout << "==========================\n";
 
     // Addition
@@ -30,7 +30,7 @@ int main()
     cout << "b-- = " << b--;
 
     cout << "\n==========================\n";
-    cout << "Relational Operator\n";
+    cout << "Relational Operators\n";
     cout << "==========================\n";
 
     // Less than Operator
@@ -50,5 +50,19 @@ int main()
 
     // Not Equal to Operator
     cout << "a != b = " << (a != b) << endl;
+
+    cout << "==========================\n";
+    cout << "Logical Operators\n";
+    cout << "==========================\n";
+
+    // Logical AND Operator
+    cout << "a && b = " << (a && b) << endl;
+
+    // Logical OR Operator
+    cout << "a || b = " << (a || b) << endl;
+
+    // Logical NOT Operator
+    cout << " !b = " << (!b) << endl;
+
     return 0;
 }

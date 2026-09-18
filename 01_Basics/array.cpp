@@ -37,6 +37,7 @@ int main()
     cout << "Multi-Dimensional Array" << endl;
     cout << "=======================" << endl;
 
+    cout << "2D-Array" << endl;
     // Declare and initialize a 2D array
     int arr2D[2][3] = {
         {1, 2, 3},
@@ -63,6 +64,7 @@ int main()
         cout << endl;
     }
 
+    cout << "3D-Array" << endl;
     // Declare and initialize a 3D array
     int arr3D[2][2][3] = {
         {{1, 2, 3},

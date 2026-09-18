@@ -37,7 +37,7 @@ int main()
     cout << "Multi-Dimensional Array" << endl;
     cout << "=======================" << endl;
 
-    // 2D Declare and initialize a 2D array
+    // Declare and initialize a 2D array
     int arr2D[2][3] = {
         {1, 2, 3},
         {4, 5, 6}};
@@ -60,6 +60,37 @@ int main()
             cout << arr2D[i][j] << " ";
         }
 
+        cout << endl;
+    }
+
+    // Declare and initialize a 3D array
+    int arr3D[2][2][3] = {
+        {{1, 2, 3},
+         {4, 5, 6}},
+        {{7, 8, 9},
+         {10, 11, 12}}};
+
+    // Accessing 3D array elements using indexes
+    cout << "Element at [0][1][2]: " << arr3D[0][1][2] << endl;
+    cout << "Element at [1][1][0]: " << arr3D[1][1][0] << endl;
+
+    // Modifying a 3D array element
+    arr3D[0][1][1] = {25};
+    cout << "Modified element at [0][1][1]: " << arr3D[0][1][1] << endl;
+
+    // Traversing and displaying the 3D array
+    cout << "Modified 3D array:" << endl;
+
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            for (int k = 0; k < 3; k++)
+            {
+                cout << arr3D[i][j][k] << " ";
+            }
+            cout << endl;
+        }
         cout << endl;
     }
     return 0;

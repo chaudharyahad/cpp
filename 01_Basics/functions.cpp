@@ -23,6 +23,16 @@ void passByPointer(int *c)
     *c = 70;
 }
 
+// Recursion function
+void countDown(int n)
+{
+    if (n == 0)
+        return;
+
+    cout << n << endl;
+    countDown(n - 1);
+}
+
 int main()
 {
     int result, num = 5, a = 10, b = 20, c = 30;
@@ -56,6 +66,12 @@ int main()
 
     passByPointer(&c);
     cout << "c: " << c << endl;
+
+    cout << "======================" << endl;
+    cout << "Recursion" << endl;
+    cout << "======================" << endl;
+
+    countDown(5);
 
     return 0;
 }
